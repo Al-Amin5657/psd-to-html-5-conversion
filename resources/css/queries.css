@@ -1,0 +1,127 @@
+@media screen and (max-width:1200px) {
+    .row {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .hero-text-box {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .images img {
+        width: 100%;
+    }
+
+    .description {
+        margin-top: 30px;
+    }
+
+    .grid-process-section {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        grid-gap: 15px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .about {
+        margin: auto;
+    }
+
+    .hero-text-box {
+        width: 100%;
+    }
+
+    .hero-text-box hr {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .images img {
+        width: 80%;
+    }
+
+    .description {
+        margin-top: 20px;
+    }
+
+    /* .working-container { width: 100%; text-align: center; } */
+    .process-item {
+        width: 250px;
+        height: 250px;
+        text-align: center;
+    }
+
+    .item-img-header {
+        text-align: center;
+        /* left: 50%; top: 50%; transform: translate(-50%, -50%); */
+    }
+
+    .grid-process-section {
+        grid-template-columns: 1fr;
+        width: 1000px;
+        /* margin: auto; */
+        grid-gap: 15px;
+        margin-left: 55px;
+    }
+
+    .education-items {
+        grid-template-columns: 1fr;
+        /* margin: 50px 0; */
+        grid-gap: 10px;
+        width: 300px;
+    }
+
+    #education-container {
+        height: 150vh;
+    }
+
+    #portfolio {
+        text-align: center;
+        /* margin: auto; */
+    }
+
+    .section-title {
+        text-align: center;
+        margin: 55px 0;
+    }
+
+    .grid-portfolio {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 50px;
+        grid-auto-rows: 200px;
+    }
+
+    .grid-items img {
+        width: 40%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .grid-items:nth-child(5) {
+        grid-column: 1;
+    }
+
+    .grid-contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .close-btn ion-icon {
+        right: 45px;
+    }
+}
